@@ -8,7 +8,7 @@ These examples can be loaded in Pharo with by running the following in Playgroun
 ```smalltalk
 Metacello new
    baseline: 'WodenCoreExamples';
-   repository: 'github://ronsaldo/form-procedural-library';
+   repository: 'github://ronsaldo/woden-core-examples';
    load
 ```
 
