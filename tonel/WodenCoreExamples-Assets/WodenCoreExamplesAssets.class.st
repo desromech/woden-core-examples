@@ -8,6 +8,6 @@ Class {
 }
 
 { #category : #hooks }
-WodenCoreExamplesAssets >> adjustLocation: repoLocation [
+WodenCoreExamplesAssets class >> adjustLocation: repoLocation [
 	^ repoLocation / 'assets'
 ]
