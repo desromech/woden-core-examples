@@ -9,11 +9,10 @@ BaselineOfWodenCoreExamples >> baseline: spec [
     <baseline>
 	spec for: #'common' do: [
 		spec
-			baseline: #'FormProceduralLibrary' with: [ spec repository: 'github://ronsaldo/form-procedural-library' ];
 			baseline: #'WodenSceneGraph' with: [ spec repository: 'github://ronsaldo/woden-core-scene-graph' ];	
 			baseline: #'WodenGameFramework' with: [ spec repository: 'github://ronsaldo/woden-core-game-framework' ];
 			package: #'WodenCoreExamples-Assets' with: [
-				spec requires: #( #'WodenSceneGraph' #FormProceduralLibrary).
+				spec requires: #( #'WodenSceneGraph').
 			];
 			package: #'WodenCoreExamples-SceneGraph' with: [
 				spec requires: #( #'WodenSceneGraph').
