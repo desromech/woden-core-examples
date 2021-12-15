@@ -9,6 +9,7 @@ These examples can be loaded in Pharo with by running the following in Playgroun
 Metacello new
    baseline: 'WodenCoreExamples';
    repository: 'github://ronsaldo/woden-core-examples';
+   onConflictUseIncoming;
    load
 ```
 
