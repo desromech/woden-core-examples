@@ -64,9 +64,7 @@ WDCESceneGraphExamples class >> examplePool [
 	lightProbe := WDLightProbe forHDRIFileReference: WodenCoreExamplesAssets location / 'hdri' / 'world'/ 'venice_sunset_1k.hdr'.
 	tilesMaterial := WDSceneExamplesProceduralAssets uniqueInstance tileMaterial.
 	concreteMaterial := WDMetallicRoughnessMaterial new.
-	waterMaterial := WDSceneExamplesProceduralAssets uniqueInstance poolWaterMaterial copy 
-		texcoordOffsetVelocity: (Vector2 y: 1);
-		yourself.
+	waterMaterial := WDSceneExamplesProceduralAssets uniqueInstance poolWaterMaterial.
 
 	borderThickness := 0.5.
 
