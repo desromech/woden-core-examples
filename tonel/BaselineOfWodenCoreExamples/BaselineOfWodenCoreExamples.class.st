@@ -13,6 +13,7 @@ BaselineOfWodenCoreExamples >> baseline: spec [
 			baseline: #'WodenGameFramework' with: [ spec repository: 'github://ronsaldo/woden-core-game-framework' ];
 			baseline: #'WodenRoassal' with: [ spec repository: 'github://ronsaldo/woden-core-roassal' ];
 			baseline: #'WodenEditor' with: [ spec repository: 'github://ronsaldo/woden-core-editor' ];
+			baseline: #'WodenCorePhysics' with: [ spec repository: 'github://ronsaldo/woden-core-physics' ];
 			package: #'WodenCoreExamples-Assets' with: [
 				spec requires: #( #'WodenSceneGraph').
 			];
