@@ -40,22 +40,22 @@ WDCESceneGraphExamples class >> exampleImageBasedLighting [
 		]
 	].
 
-	scene inspect
+	scene openInWindow
 ]
 
 { #category : #'examples - models' }
 WDCESceneGraphExamples class >> exampleModelDamagedHelmet [
-	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/DamagedHelmet/DamagedHelmet.glb')) scenes first inspect
+	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/DamagedHelmet/DamagedHelmet.glb')) scenes first openInWindow
 ]
 
 { #category : #'examples - models' }
 WDCESceneGraphExamples class >> exampleModelFox [
-	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/Fox/Fox.gltf')) scenes first inspect
+	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/Fox/Fox.gltf')) scenes first openInWindow
 ]
 
 { #category : #'examples - models' }
 WDCESceneGraphExamples class >> exampleModelSponza [
-	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/Sponza/glTF/Sponza.gltf')) scenes first inspect
+	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/Sponza/glTF/Sponza.gltf')) scenes first openInWindow
 ]
 
 { #category : #'example - ibl' }
@@ -130,7 +130,7 @@ WDCESceneGraphExamples class >> examplePool [
 				rotateDegreesOnX: -35;
 				translateToX: 0.0 y: 1.5 z: 2.5;
 				yourself);
-		inspect
+		openInWindow
 ]
 
 { #category : #'example - ibl' }
@@ -156,7 +156,7 @@ WDCESceneGraphExamples class >> exampleTiledFloor [
 			mesh) asSceneNode 
 				translateByY: -1.0;
 				yourself);
-		inspect
+		openInWindow
 ]
 
 { #category : #'see class side' }
