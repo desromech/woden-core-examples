@@ -9,6 +9,9 @@ Class {
 
 { #category : #'example - ibl' }
 WDCESceneGraphExamples class >> exampleImageBasedLighting [
+	"
+	self exampleImageBasedLighting
+	"
 	| lightProbe scene baseSphere material |
 	lightProbe := WDLightProbe forHDRIFileReference: WodenCoreExamplesAssets location / 'hdri' / 'world'/ 'venice_sunset_1k.hdr'.
 	scene := WDScene new
@@ -45,21 +48,33 @@ WDCESceneGraphExamples class >> exampleImageBasedLighting [
 
 { #category : #'examples - models' }
 WDCESceneGraphExamples class >> exampleModelDamagedHelmet [
+	"
+	self exampleModelDamagedHelmet
+	"
 	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/DamagedHelmet/DamagedHelmet.glb')) scenes first openInWindow
 ]
 
 { #category : #'examples - models' }
 WDCESceneGraphExamples class >> exampleModelFox [
+	"
+	self exampleModelFox
+	"
 	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/Fox/Fox.gltf')) scenes first openInWindow
 ]
 
 { #category : #'examples - models' }
 WDCESceneGraphExamples class >> exampleModelSponza [
+	"
+	self exampleModelSponza
+	"
 	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/Sponza/glTF/Sponza.gltf')) scenes first openInWindow
 ]
 
 { #category : #'example - ibl' }
 WDCESceneGraphExamples class >> examplePool [
+	"
+	self examplePool
+	"
 	| lightProbe tilesMaterial concreteMaterial waterMaterial borderThickness |
 	lightProbe := WDLightProbe forHDRIFileReference: WodenCoreExamplesAssets location / 'hdri' / 'world'/ 'venice_sunset_1k.hdr'.
 	tilesMaterial := WDSceneExamplesProceduralAssets uniqueInstance tileMaterial.
@@ -135,6 +150,9 @@ WDCESceneGraphExamples class >> examplePool [
 
 { #category : #'example - ibl' }
 WDCESceneGraphExamples class >> exampleTiledFloor [
+	"
+	self exampleTiledFloor
+	"
 	| lightProbe |
 	lightProbe := WDLightProbe forHDRIFileReference: WodenCoreExamplesAssets location / 'hdri' / 'world'/ 'venice_sunset_1k.hdr'.
 	WDScene new

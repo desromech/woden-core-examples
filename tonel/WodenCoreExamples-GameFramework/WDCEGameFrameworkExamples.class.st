@@ -9,6 +9,9 @@ Class {
 
 { #category : #'example - ibl' }
 WDCEGameFrameworkExamples class >> examplePool [
+	"
+	self examplePool
+	"
 	| lightProbe tilesMaterial concreteMaterial waterMaterial borderThickness world poolMesh poolActor waterMesh waterActor lightSourceActor hdriActor |
 	lightProbe := WDLightProbe forHDRIFileReference: WodenCoreExamplesAssets location / 'hdri' / 'world'/ 'venice_sunset_1k.hdr'.
 	tilesMaterial := WDSceneExamplesProceduralAssets uniqueInstance tileMaterial.
