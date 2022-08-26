@@ -7,6 +7,37 @@ Class {
 	#category : #'WodenCoreExamples-SceneGraph'
 }
 
+{ #category : #'examples - models' }
+WDCESceneGraphExamples class >> displayModelWithBasicLighting: modelName [
+	| scene lightProbe |
+	scene := (WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: modelName)) scenes first copy.
+	
+	lightProbe := WDLightProbe forHDRIFileReference: WodenCoreExamplesAssets location / 'hdri' / 'world'/ 'venice_sunset_1k.hdr'.
+	
+	scene
+		ambientLighting: 0.0;
+		ambientLightProbe: lightProbe;
+		addBackground: (WDMeshBuilder new
+			currentMaterial: (WDEnvironmentMapMaterial new
+				colorTexture: lightProbe environment;
+				background: true;
+				yourself);
+			addInteriorCubeWithWidth: 1.0 height: 1.0 depth: 1.0;
+			mesh
+		).
+
+	scene
+		add: ((WDDirectionalLightSource new
+				intensity: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized * 0.7;
+				asSceneNode)
+					rotateDegreesOnX: -35;
+					translateToX: 0.0 y: 1.5 z: 2.5;
+					yourself).
+
+	scene
+		openInWindow
+]
+
 { #category : #'example - ibl' }
 WDCESceneGraphExamples class >> exampleImageBasedLighting [
 	"
@@ -51,7 +82,7 @@ WDCESceneGraphExamples class >> exampleModelDamagedHelmet [
 	"
 	self exampleModelDamagedHelmet
 	"
-	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/DamagedHelmet/DamagedHelmet.glb')) scenes first openInWindow
+	self displayModelWithBasicLighting: 'models/DamagedHelmet/DamagedHelmet.glb'
 ]
 
 { #category : #'examples - models' }
@@ -59,7 +90,7 @@ WDCESceneGraphExamples class >> exampleModelFox [
 	"
 	self exampleModelFox
 	"
-	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/Fox/Fox.gltf')) scenes first openInWindow
+	self displayModelWithBasicLighting: 'models/Fox/Fox.gltf'
 ]
 
 { #category : #'examples - models' }
@@ -67,7 +98,7 @@ WDCESceneGraphExamples class >> exampleModelSponza [
 	"
 	self exampleModelSponza
 	"
-	(WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: 'models/Sponza/glTF/Sponza.gltf')) scenes first openInWindow
+	self displayModelWithBasicLighting: 'models/Sponza/glTF/Sponza.gltf'
 ]
 
 { #category : #'example - ibl' }
