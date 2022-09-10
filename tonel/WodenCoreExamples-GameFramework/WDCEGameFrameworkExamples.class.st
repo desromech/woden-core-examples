@@ -15,7 +15,7 @@ WDCEGameFrameworkExamples class >> examplePool [
 	| lightProbe tilesMaterial concreteMaterial waterMaterial borderThickness world poolMesh poolActor waterMesh waterActor lightSourceActor hdriActor |
 	lightProbe := WDLightProbe forHDRIFileReference: WodenCoreExamplesAssets location / 'hdri' / 'world'/ 'venice_sunset_1k.hdr'.
 	tilesMaterial := WDSceneExamplesProceduralAssets uniqueInstance tileMaterial.
-	concreteMaterial := WDMetallicRoughnessMaterial new.
+	concreteMaterial := WDMetallicRoughnessMaterial default.
 	waterMaterial := WDSceneExamplesProceduralAssets uniqueInstance poolWaterMaterial.
 
 	borderThickness := 0.5.
