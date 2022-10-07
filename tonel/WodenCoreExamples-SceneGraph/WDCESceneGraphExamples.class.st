@@ -38,6 +38,54 @@ WDCESceneGraphExamples class >> displayModelWithBasicLighting: modelName [
 		openInWindow
 ]
 
+{ #category : #'examples - models' }
+WDCESceneGraphExamples class >> displayModelWithBasicLighting: modelName scale: scale animationCycle: animationCycle [
+	| scene modelAsset skeletalMesh animation animationBoneMap lightProbe currentTime |
+	modelAsset := WDModelAssetReadWriter readFileNamed: (WodenCoreExamplesAssets location resolve: modelName).
+	
+	skeletalMesh := modelAsset skeletalMeshes first copy.
+	skeletalMesh currentPose: skeletalMesh skeleton restPose.
+
+	animation := modelAsset elementNamed: animationCycle.
+	animationBoneMap := animation makeBoneMapForSkeleton: skeletalMesh skeleton.
+
+	lightProbe := WDLightProbe forHDRIFileReference: WodenCoreExamplesAssets location / 'hdri' / 'world'/ 'venice_sunset_1k.hdr'.
+	
+	scene := WDScene new.
+	scene
+		ambientLighting: 0.0;
+		ambientLightProbe: lightProbe;
+		addBackground: (WDMeshBuilder new
+			currentMaterial: (WDEnvironmentMapMaterial new
+				colorTexture: lightProbe environment;
+				background: true;
+				yourself);
+			addInteriorCubeWithWidth: 1.0 height: 1.0 depth: 1.0;
+			mesh
+		);
+		add: (skeletalMesh asSceneNode scale: 0.018).
+
+	scene
+		add: ((WDDirectionalLightSource new
+				intensity: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized * 0.7;
+				asSceneNode)
+					rotateDegreesOnX: -35;
+					translateToX: 0.0 y: 1.5 z: 2.5;
+					yourself).
+	
+	currentTime := 0.0.
+	scene updateBlock: [ :delta |
+		currentTime := currentTime + delta.
+		skeletalMesh currentPose setForRestPose.
+		
+		animation applyPosition: currentTime looped: true toSkeletonPose: skeletalMesh currentPose withBoneMap: animationBoneMap.
+		true
+	].
+	
+	scene
+		openInWindow
+]
+
 { #category : #'example - ibl' }
 WDCESceneGraphExamples class >> exampleImageBasedLighting [
 	"
@@ -75,6 +123,15 @@ WDCESceneGraphExamples class >> exampleImageBasedLighting [
 	].
 
 	scene openInWindow
+]
+
+{ #category : #'examples - models' }
+WDCESceneGraphExamples class >> exampleModelAnimatedFox [
+	"
+	self exampleModelAnimatedFox
+	"
+	self displayModelWithBasicLighting: 'models/Fox/Fox.gltf' scale: 0.018 animationCycle: 'Survey'
+
 ]
 
 { #category : #'examples - models' }
