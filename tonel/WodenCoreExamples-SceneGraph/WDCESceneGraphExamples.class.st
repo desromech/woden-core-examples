@@ -28,7 +28,8 @@ WDCESceneGraphExamples class >> displayModelWithBasicLighting: modelName [
 
 	scene
 		add: ((WDDirectionalLightSource new
-				intensity: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized * 0.7;
+				color: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized;
+				intensity: 0.7;
 				asSceneNode)
 					rotateDegreesOnX: -35;
 					translateToX: 0.0 y: 1.5 z: 2.5;
@@ -67,7 +68,8 @@ WDCESceneGraphExamples class >> displayModelWithBasicLighting: modelName scale: 
 
 	scene
 		add: ((WDDirectionalLightSource new
-				intensity: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized * 0.7;
+				color: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized;
+				intensity: 0.7;
 				asSceneNode)
 					rotateDegreesOnX: -35;
 					translateToX: 0.0 y: 1.5 z: 2.5;
@@ -228,7 +230,8 @@ WDCESceneGraphExamples class >> exampleOpaquePool [
 			translateToX: 0.0 y: -0.3 z: 0.0;
 			yourself);
 		add: ((WDDirectionalLightSource new
-			intensity: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized * 0.7;
+			color: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized;
+			intensity: 0.7;
 			asSceneNode)
 				rotateDegreesOnX: -35;
 				translateToX: 0.0 y: 1.5 z: 2.5;
@@ -306,7 +309,8 @@ WDCESceneGraphExamples class >> examplePool [
 			translateToX: 0.0 y: -0.3 z: 0.0;
 			yourself);
 		add: ((WDDirectionalLightSource new
-			intensity: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized * 0.7;
+			color: (Vector3 x: 1.0 y: 1.0 z: 0.8) normalized;
+			intensity: 0.7;
 			asSceneNode)
 				rotateDegreesOnX: -35;
 				translateToX: 0.0 y: 1.5 z: 2.5;
