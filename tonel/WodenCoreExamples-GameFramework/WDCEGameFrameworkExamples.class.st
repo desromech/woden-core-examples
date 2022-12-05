@@ -77,7 +77,7 @@ WDCEGameFrameworkExamples class >> exampleOpaquePool [
 
 	hdriActor := WDGFActor new.
 	hdriActor
-		addComponent: (WDGFSkyBoxComponent with: lightProbe environment);
+		addComponent: (WDGFSkyBoxComponent with: lightProbe environment) beSceneBackground;
 		addComponent: (WDGFAmbientLightProbeComponent with: lightProbe).
 	world spawnActor: hdriActor.
 	
@@ -163,7 +163,7 @@ WDCEGameFrameworkExamples class >> examplePool [
 
 	hdriActor := WDGFActor new.
 	hdriActor
-		addComponent: (WDGFSkyBoxComponent with: lightProbe environment);
+		addComponent: (WDGFSkyBoxComponent with: lightProbe environment) beSceneBackground;
 		addComponent: (WDGFAmbientLightProbeComponent with: lightProbe).
 	world spawnActor: hdriActor.
 	
