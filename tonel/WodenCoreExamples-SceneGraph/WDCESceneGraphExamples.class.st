@@ -88,6 +88,25 @@ WDCESceneGraphExamples class >> displayModelWithBasicLighting: modelName scale: 
 		openInWindow
 ]
 
+{ #category : #'examples - models' }
+WDCESceneGraphExamples class >> exampleAsyncModelLoading [
+	| asyncContext |
+	asyncContext := WDFileAsyncContentContext workingDirectory: WodenCoreExamplesAssets location.
+	WDScene new
+		add: (WDAsyncSceneNode new
+			scale: 0.018;
+			uri: 'models/Fox/Fox.gltf';
+			asyncContext: asyncContext;
+			yourself);
+		add: (WDAsyncSceneNode new
+			translateByX: 2;
+			uri: 'models/DamagedHelmet/DamagedHelmet.glb';
+			asyncContext: asyncContext;
+			yourself);
+		updateBlock: [ :delta | true ];
+		openInWindow
+]
+
 { #category : #'example - ibl' }
 WDCESceneGraphExamples class >> exampleImageBasedLighting [
 	"
