@@ -1,7 +1,7 @@
 Class {
 	#name : #WDCEGameFrameworkExampleGameEditorSettings,
 	#superclass : #WDEWodenGameFrameworkSettings,
-	#category : #'WodenCoreExamples-GameFramework'
+	#category : #'WodenCoreExamples-GameFramework-Editor'
 }
 
 { #category : #accessing }

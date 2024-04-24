@@ -26,7 +26,10 @@ BaselineOfWodenCoreExamples >> baseline: spec [
 
 	spec for: #pharo do: [
 		spec
-			baseline: #'WodenEditor' with: [ spec repository: 'github://desromech/woden-core-editor' ]
+			baseline: #'WodenEditor' with: [ spec repository: 'github://desromech/woden-core-editor' ];
+			package: #'WodenCoreExamples-GameFramework-Editor' with: [
+				spec requires: #( #'WodenGameFramework' #'WodenEditor').
+			]
 	].
 
 ]
