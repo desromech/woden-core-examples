@@ -12,5 +12,5 @@ WDCEGameFrameworkExampleGameEditorSettings >> applicationSettings [
 
 { #category : #accessing }
 WDCEGameFrameworkExampleGameEditorSettings >> name [
-	^ 'Woden Core Examples - Game Framework'
+	^ 'Woden Core Examples'
 ]
