@@ -1,0 +1,8 @@
+{
+    "type": "MetallicRoughness",
+    "baseColorTexture": "worn_planks_diff_1k.jpg",
+    "normalTexture": "worn_planks_nor_gl_1k.jpg",
+    "metallicRoughnessTexture": "worn_planks_arm_1k.jpg",
+    "occlusionTexture": "worn_planks_arm_1k.jpg",
+    "displacementTexture": "worn_planks_disp_1k.jpg"
+}
