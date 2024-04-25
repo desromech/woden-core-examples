@@ -19,7 +19,7 @@ WodenCoreExamplesAssets class >> defaultGithubRepositoryName [
 
 { #category : #hooks }
 WodenCoreExamplesAssets class >> defaultGithubRepositoryOwners [
-	^ #(ronsaldo 'woden-engine')
+	^ #(desromech)
 ]
 
 { #category : #hooks }
