@@ -90,6 +90,9 @@ WDCESceneGraphExamples class >> displayModelWithBasicLighting: modelName scale: 
 
 { #category : #'examples - models' }
 WDCESceneGraphExamples class >> exampleAsyncModelLoading [
+	"
+	self exampleAsyncModelLoading
+	"
 	| asyncContext |
 	asyncContext := WDFileAsyncContentContext workingDirectory: WodenCoreExamplesAssets location.
 	WDScene new
