@@ -6,6 +6,9 @@ Class {
 
 { #category : #examples }
 WDCEWorkshopSandboxExamples class >> exampleWorkshopSandbox [
+	(WDGFWorld withApplicationSettings: WDCEGameFrameworkApplicationSettings)
+		loadFromFileNamed: 'maps/workshopSandbox.wgfworld';
+		playInWindow
 ]
 
 { #category : #'see class side' }
