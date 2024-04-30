@@ -3409,6 +3409,39 @@
 						0.04545454545454547,
 						-0.45000000000000007
 					]
+				},
+				{
+					"__type__" : "ModelReference",
+					"name" : "",
+					"visible" : true,
+					"transform" : {
+						"scale" : [
+							3.6445310256698162,
+							1.0,
+							2.416380789710135
+						],
+						"rotation" : [
+							0,
+							0,
+							0,
+							1
+						],
+						"translation" : [
+							-2.5000002364394986,
+							0.0,
+							-4.5
+						]
+					},
+					"editionViewColor" : [
+						0.4478492198648107,
+						0.0060249323261142565,
+						0.0060249323261142565,
+						1.0
+					],
+					"path" : "models/furniture/table/wooden_table_02.gltf",
+					"elementName" : "",
+					"hasCollisions" : true,
+					"collisionElementName" : ""
 				}
 			],
 			"className" : "StaticActor"
