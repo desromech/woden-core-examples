@@ -154,7 +154,7 @@ WDCESceneGraphExamples class >> exampleModelAnimatedFox [
 	"
 	self exampleModelAnimatedFox
 	"
-	self displayModelWithBasicLighting: 'models/Fox/Fox.gltf' scale: 0.018 animationCycle: 'Survey'
+	self displayModelWithBasicLighting: 'models/gltf-samples/Fox/Fox.gltf' scale: 0.018 animationCycle: 'Survey'
 
 ]
 
@@ -163,7 +163,7 @@ WDCESceneGraphExamples class >> exampleModelDamagedHelmet [
 	"
 	self exampleModelDamagedHelmet
 	"
-	self displayModelWithBasicLighting: 'models/DamagedHelmet/DamagedHelmet.glb'
+	self displayModelWithBasicLighting: 'models/gltf-samples/DamagedHelmet/DamagedHelmet.glb'
 ]
 
 { #category : #'examples - models' }
@@ -171,7 +171,7 @@ WDCESceneGraphExamples class >> exampleModelFox [
 	"
 	self exampleModelFox
 	"
-	self displayModelWithBasicLighting: 'models/Fox/Fox.gltf'
+	self displayModelWithBasicLighting: 'models/gltf-samples/Fox/Fox.gltf'
 ]
 
 { #category : #'examples - models' }
@@ -179,7 +179,7 @@ WDCESceneGraphExamples class >> exampleModelSponza [
 	"
 	self exampleModelSponza
 	"
-	self displayModelWithBasicLighting: 'models/Sponza/glTF/Sponza.gltf'
+	self displayModelWithBasicLighting: 'models/gltf-samples/Sponza/glTF/Sponza.gltf'
 ]
 
 { #category : #'example - ibl' }
