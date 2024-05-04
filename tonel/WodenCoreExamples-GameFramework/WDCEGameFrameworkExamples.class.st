@@ -90,7 +90,7 @@ WDCEGameFrameworkExamples class >> exampleOpaquePool [
 	world spawnActor: lightSourceActor.
 	world spawnActor: WDGFActorTemplates noclipCameraActor.
 	
-	world playInMorphic
+	world playInWindow
 ]
 
 { #category : #'example - ibl' }
@@ -176,7 +176,7 @@ WDCEGameFrameworkExamples class >> examplePool [
 	world spawnActor: lightSourceActor.
 	world spawnActor: WDGFActorTemplates noclipCameraActor.
 	
-	world playInMorphic
+	world playInWindow
 ]
 
 { #category : #'see class side' }
