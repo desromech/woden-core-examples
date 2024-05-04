@@ -1,0 +1,8 @@
+{
+    "type": "MetallicRoughness",
+    "baseColorTexture": "brown_mud_leaves_01_diff_1k.jpg",
+    "normalTexture": "brown_mud_leaves_01_nor_gl_1k.jpg",
+    "metallicRoughnessTexture": "brown_mud_leaves_01_arm_1k.jpg",
+    "occlusionTexture": "brown_mud_leaves_01_arm_1k.jpg",
+    "displacementTexture": "brown_mud_leaves_01_disp_1k.jpg"
+}

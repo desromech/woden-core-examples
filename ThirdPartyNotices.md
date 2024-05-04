@@ -1,4 +1,16 @@
 The following assets are taken from PolyHaven (https://polyhaven.com)
 
+- materials/brick/brick-wall-006. Jan Burghardt. [Worn Planks.](https://polyhaven.com/a/brick_wall_006) (CC0)
 - materials/wood/worn-planks. Dimitrios Savva. [Worn Planks.](https://polyhaven.com/a/worn_planks) (CC0)
+- materials/outdoor/brown-mud-leaves. Rob Tuytel. [Brown Mud Leaves 01.](https://polyhaven.com/a/brown_mud_leaves_01) (CC0)
 - models/furniture/table/wooden_table_02. Serhii Khromov. [Wooden Table 02.](https://polyhaven.com/a/wooden_table_02) (CC0)
+- models/nature/plant/potted-plant-01. Rico Cilliers. [Potted Plant 01.](https://polyhaven.com/a/potted_plant_01) (CC0)
+- models/prop/decorative/dartboard. Satyaki Mandal. [Dartboard.](https://polyhaven.com/a/dartboard) (CC0)
+- models/prop/electronic/television-01. Gabriel Radić. [Television 01.](https://polyhaven.com/a/Television_01) (CC0)
+- models/prop/tool/crowbar-01. Alexander Otterbeck. [Crowbar 01.](https://polyhaven.com/a/crowbar_01) (CC0)
+- models/prop/tool/drill-01. Fernando Quinn. [Drill 01.](https://polyhaven.com/a/Drill_01) (CC0)
+- models/prop/tool/flathead-screwdriver-01. Dylan Detwiller. [Flathead Screwdriver](https://polyhaven.com/a/flathead_screwdriver) (CC0)
+- models/prop/tool/handsaw-wood. Konrad Szałankiewicz. [Handsaw Wood](https://polyhaven.com/a/handsaw_wood) (CC0)
+- models/prop/tool/watering-can-metal-01. Charles Nderitu. [Watering Can Metal 01.](https://polyhaven.com/a/watering_can_metal_01) (CC0)
+- models/prop/tool/wooden-hammer-01. James Ray Cock. [Wooden Hammer 01.](https://polyhaven.com/a/wooden_hammer_01) (CC0)
+

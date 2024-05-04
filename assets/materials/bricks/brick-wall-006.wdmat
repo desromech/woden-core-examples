@@ -1,0 +1,8 @@
+{
+    "type": "MetallicRoughness",
+    "baseColorTexture": "brick_wall_006_diff_1k.jpg",
+    "normalTexture": "brick_wall_006_nor_gl_1k.jpg",
+    "metallicRoughnessTexture": "brick_wall_006_arm_1k.jpg",
+    "occlusionTexture": "brick_wall_006_arm_1k.jpg",
+    "displacementTexture": "brick_wall_006_disp_1k.jpg"
+}
