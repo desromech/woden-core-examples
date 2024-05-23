@@ -6168,7 +6168,7 @@
 					"collisionElementName" : ""
 				},
 				{
-					"__type__" : "ModelReference",
+					"__type__" : "PropReference",
 					"name" : "",
 					"visible" : true,
 					"transform" : {
@@ -6178,15 +6178,45 @@
 							1
 						],
 						"rotation" : [
-							8.659560562354932e-17,
-							0.7071067811865476,
-							-0.7071067811865475,
-							8.659560562354934e-17
+							0,
+							0,
+							0,
+							1
 						],
 						"translation" : [
-							-1.3000000000000003,
-							0.81,
-							-5.100000000000001
+							-1.0,
+							1.0,
+							-5.0
+						]
+					},
+					"editionViewColor" : [
+						0.4478492198648107,
+						0.0060249323261142565,
+						0.0060249323261142565,
+						1.0
+					],
+					"path" : "props/tool/handsaw-wood.wdprop"
+				},
+				{
+					"__type__" : "PropReference",
+					"name" : "",
+					"visible" : true,
+					"transform" : {
+						"scale" : [
+							1,
+							1,
+							1
+						],
+						"rotation" : [
+							0,
+							0,
+							0,
+							1
+						],
+						"translation" : [
+							-2.0,
+							1.0,
+							-5.0
 						]
 					},
 					"editionViewColor" : [
@@ -6195,13 +6225,10 @@
 						0.0060249323261142565,
 						1.0
 					],
-					"path" : "models/prop/tool/wooden-hammer-01.gltf",
-					"elementName" : "",
-					"hasCollisions" : true,
-					"collisionElementName" : ""
+					"path" : "props/tool/wooden-hammer.wdprop"
 				},
 				{
-					"__type__" : "ModelReference",
+					"__type__" : "PropReference",
 					"name" : "",
 					"visible" : true,
 					"transform" : {
@@ -6211,15 +6238,15 @@
 							1
 						],
 						"rotation" : [
-							-0.5,
-							-0.4999999999999999,
-							0.4999999999999999,
-							0.5
+							0,
+							0,
+							0,
+							1
 						],
 						"translation" : [
-							-0.6000000000000001,
-							0.81,
-							-5.1000000000000005
+							-1.0,
+							1.2,
+							-4.0
 						]
 					},
 					"editionViewColor" : [
@@ -6228,10 +6255,7 @@
 						0.4478492198648107,
 						1.0
 					],
-					"path" : "models/prop/tool/handsaw-wood.gltf",
-					"elementName" : "",
-					"hasCollisions" : true,
-					"collisionElementName" : ""
+					"path" : "props/tool/crowbar-01.wdprop"
 				}
 			],
 			"className" : "StaticActor"
