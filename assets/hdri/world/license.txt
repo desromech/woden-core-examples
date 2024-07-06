@@ -9,6 +9,7 @@ ninomaru_teien_1k.hdr
 spruit_sunrise_1k.hdr
 studio_small_01_1k.hdr
 venice_sunset_1k.hdr
+kloofendal_48d_partly_cloudy_puresky_1k.hdr
 
 These were created by Philip Modin (HDRI Haven https://hdrihaven.com):
 portland_landing_pad_1k.hdr

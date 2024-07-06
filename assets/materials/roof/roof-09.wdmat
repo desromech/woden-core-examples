@@ -1,0 +1,8 @@
+{
+    "type": "MetallicRoughness",
+    "baseColorTexture": "roof_09_diff.jpg",
+    "normalTexture": "roof_09_nor_gl.jpg",
+    "metallicRoughnessTexture": "roof_09_arm.jpg",
+    "occlusionTexture": "roof_09_arm.jpg",
+    "displacementTexture": "roof_09_disp.jpg"
+}
