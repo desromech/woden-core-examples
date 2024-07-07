@@ -1,0 +1,8 @@
+{
+    "type": "MetallicRoughness",
+    "baseColorTexture": "mossy_cobblestone_diff_1k.jpg",
+    "normalTexture": "mossy_cobblestone_nor_gl_1k.jpg",
+    "metallicRoughnessTexture": "mossy_cobblestone_04_arm_1k.jpg",
+    "occlusionTexture": "mossy_cobblestone_arm_1k.jpg",
+    "displacementTexture": "mossy_cobblestone_disp_1k.jpg"
+}

@@ -1,8 +1,11 @@
 The following assets are taken from PolyHaven (https://polyhaven.com)
 
 - materials/brick/brick-wall-006. Jan Burghardt. [Worn Planks.](https://polyhaven.com/a/brick_wall_006) (CC0)
+- materials/floor/mossy-cobblestone. Sơn Nguyễn. [Mossy Cobblestone.](https://polyhaven.com/a/mossy_cobblestone) (CC0)
 - materials/wood/worn-planks. Dimitrios Savva. [Worn Planks.](https://polyhaven.com/a/worn_planks) (CC0)
+- materials/roof/roof-09. Rob Tuytel. [Roof 09.](https://polyhaven.com/a/roof_09) (CC0)
 - materials/outdoor/brown-mud-leaves. Rob Tuytel. [Brown Mud Leaves 01.](https://polyhaven.com/a/brown_mud_leaves_01) (CC0)
+- materials/sand/coast-sand-04. Rob Tuytel. [Coast Sand 04.](https://polyhaven.com/a/coast_sand_04) (CC0)
 - models/furniture/table/wooden_table_02. Serhii Khromov. [Wooden Table 02.](https://polyhaven.com/a/wooden_table_02) (CC0)
 - models/nature/plant/potted-plant-01. Rico Cilliers. [Potted Plant 01.](https://polyhaven.com/a/potted_plant_01) (CC0)
 - models/prop/decorative/dartboard. Satyaki Mandal. [Dartboard.](https://polyhaven.com/a/dartboard) (CC0)
