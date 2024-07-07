@@ -1,0 +1,10 @@
+{
+    "type": "DuplicatedMetallicRoughnessLiquid",
+    "normalTexture": "pool-water-nor.png",
+    "baseColorFactor": [0.0, 0.0, 0.0, 1.0],
+    "roughnessFactor": 0.02,
+    "metallicFactor": 0.0,
+    "texcoordOffsetVelocity": [0.3, 0.3],
+    "duplicatedTexcoordOffsetVelocity": [-0.3, -0.3],
+    "doubleSided" : true
+}
