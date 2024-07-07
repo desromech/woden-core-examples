@@ -1,13 +1,13 @@
 {
 	"materials" : [
 		{
-			"path" : "materials/outdoor/brown-mud-leaves.wdmat"
-		},
-		{
 			"path" : "materials/wood/worn-planks.wdmat"
 		},
 		{
 			"path" : "materials/glass/clear.wdmat"
+		},
+		{
+			"path" : "materials/sand/coast-sand-04.wdmat"
 		}
 	],
 	"__type__" : "ModelingTree",
@@ -67,333 +67,6 @@
 			],
 			"lockedGroup" : false,
 			"children" : [
-				{
-					"__type__" : "BSPBrush",
-					"name" : "",
-					"visible" : true,
-					"transform" : {
-						"scale" : [
-							60.0,
-							1.0,
-							59.999999999999986
-						],
-						"rotation" : [
-							0,
-							0,
-							0,
-							1
-						],
-						"translation" : [
-							-1.7763568394002505e-15,
-							-0.5,
-							0.0
-						]
-					},
-					"editionViewColor" : [
-						0.4478492198648107,
-						0.0060249323261142565,
-						0.10697337906525463,
-						1.0
-					],
-					"faces" : [
-						{
-							"__type__" : "BSPBrushFace",
-							"name" : "",
-							"visible" : true,
-							"plane" : [
-								-1,
-								0,
-								0,
-								-0.5
-							],
-							"material" : 0,
-							"textureScale" : [
-								0.25,
-								0.25
-							],
-							"textureOffset" : [
-								0,
-								0
-							],
-							"textureRotation" : 0,
-							"vertices" : [
-								-0.5,
-								-0.5,
-								-0.5,
-								-0.5,
-								-0.5,
-								0.5,
-								-0.5,
-								0.5,
-								0.5,
-								-0.5,
-								0.5,
-								-0.5
-							],
-							"texcoords" : [
-								-7.499999999999998,
-								0.25,
-								7.499999999999998,
-								0.25,
-								7.499999999999998,
-								0.0,
-								-7.499999999999998,
-								0.0
-							]
-						},
-						{
-							"__type__" : "BSPBrushFace",
-							"name" : "",
-							"visible" : true,
-							"plane" : [
-								1,
-								0,
-								0,
-								-0.5
-							],
-							"material" : 0,
-							"textureScale" : [
-								0.25,
-								0.25
-							],
-							"textureOffset" : [
-								0,
-								0
-							],
-							"textureRotation" : 0,
-							"vertices" : [
-								0.5,
-								-0.5,
-								0.5,
-								0.5,
-								-0.5,
-								-0.5,
-								0.5,
-								0.5,
-								-0.5,
-								0.5,
-								0.5,
-								0.5
-							],
-							"texcoords" : [
-								-7.499999999999998,
-								0.25,
-								7.499999999999998,
-								0.25,
-								7.499999999999998,
-								0.0,
-								-7.499999999999998,
-								0.0
-							]
-						},
-						{
-							"__type__" : "BSPBrushFace",
-							"name" : "",
-							"visible" : true,
-							"plane" : [
-								0,
-								-1,
-								0,
-								-0.5
-							],
-							"material" : 0,
-							"textureScale" : [
-								0.25,
-								0.25
-							],
-							"textureOffset" : [
-								0,
-								0
-							],
-							"textureRotation" : 0,
-							"vertices" : [
-								-0.5,
-								-0.5,
-								0.5,
-								-0.5,
-								-0.5,
-								-0.5,
-								0.5,
-								-0.5,
-								-0.5,
-								0.5,
-								-0.5,
-								0.5
-							],
-							"texcoords" : [
-								-7.5,
-								-7.499999999999998,
-								-7.5,
-								7.499999999999998,
-								7.5,
-								7.499999999999998,
-								7.5,
-								-7.499999999999998
-							]
-						},
-						{
-							"__type__" : "BSPBrushFace",
-							"name" : "",
-							"visible" : true,
-							"plane" : [
-								0,
-								1,
-								0,
-								-0.5
-							],
-							"material" : 0,
-							"textureScale" : [
-								0.25,
-								0.25
-							],
-							"textureOffset" : [
-								0,
-								0
-							],
-							"textureRotation" : 0,
-							"vertices" : [
-								-0.5,
-								0.5,
-								-0.5,
-								-0.5,
-								0.5,
-								0.5,
-								0.5,
-								0.5,
-								0.5,
-								0.5,
-								0.5,
-								-0.5
-							],
-							"texcoords" : [
-								-7.5,
-								-7.499999999999998,
-								-7.5,
-								7.499999999999998,
-								7.5,
-								7.499999999999998,
-								7.5,
-								-7.499999999999998
-							]
-						},
-						{
-							"__type__" : "BSPBrushFace",
-							"name" : "",
-							"visible" : true,
-							"plane" : [
-								0,
-								0,
-								-1,
-								-0.5
-							],
-							"material" : 0,
-							"textureScale" : [
-								0.25,
-								0.25
-							],
-							"textureOffset" : [
-								0,
-								0
-							],
-							"textureRotation" : 0,
-							"vertices" : [
-								-0.5,
-								-0.5,
-								-0.5,
-								-0.5,
-								0.5,
-								-0.5,
-								0.5,
-								0.5,
-								-0.5,
-								0.5,
-								-0.5,
-								-0.5
-							],
-							"texcoords" : [
-								7.5,
-								0.25,
-								7.5,
-								0.0,
-								-7.5,
-								0.0,
-								-7.5,
-								0.25
-							]
-						},
-						{
-							"__type__" : "BSPBrushFace",
-							"name" : "",
-							"visible" : true,
-							"plane" : [
-								0,
-								0,
-								1,
-								-0.5
-							],
-							"material" : 0,
-							"textureScale" : [
-								0.25,
-								0.25
-							],
-							"textureOffset" : [
-								0,
-								0
-							],
-							"textureRotation" : 0,
-							"vertices" : [
-								-0.5,
-								0.5,
-								0.5,
-								-0.5,
-								-0.5,
-								0.5,
-								0.5,
-								-0.5,
-								0.5,
-								0.5,
-								0.5,
-								0.5
-							],
-							"texcoords" : [
-								-7.5,
-								0.0,
-								-7.5,
-								0.25,
-								7.5,
-								0.25,
-								7.5,
-								0.0
-							]
-						}
-					],
-					"vertices" : [
-						-0.5,
-						-0.5,
-						-0.5,
-						-0.5,
-						-0.5,
-						0.5,
-						-0.5,
-						0.5,
-						-0.5,
-						-0.5,
-						0.5,
-						0.5,
-						0.5,
-						-0.5,
-						-0.5,
-						0.5,
-						-0.5,
-						0.5,
-						0.5,
-						0.5,
-						-0.5,
-						0.5,
-						0.5,
-						0.5
-					]
-				},
 				{
 					"__type__" : "DirectionalLightSource",
 					"name" : "",
@@ -499,7 +172,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -544,7 +217,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -589,7 +262,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -634,7 +307,7 @@
 										-0.9363291775690445,
 										-0.2926028679903264
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -679,7 +352,7 @@
 										0.9363291775690445,
 										-0.2926028679903264
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -724,7 +397,7 @@
 										-0.0,
 										0.49999999999999994
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -826,7 +499,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -871,7 +544,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -916,7 +589,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -961,7 +634,7 @@
 										-0.9363291775690445,
 										-0.2926028679903264
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -1006,7 +679,7 @@
 										0.9363291775690445,
 										-0.2926028679903264
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -1051,7 +724,7 @@
 										-0.0,
 										0.49999999999999994
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -1153,7 +826,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1198,7 +871,7 @@
 										0.9363291775690445,
 										-0.2926028679903264
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1243,7 +916,7 @@
 										0.0,
 										-0.49999999999999994
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1288,7 +961,7 @@
 										0.0,
 										-0.49999999999999994
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1333,7 +1006,7 @@
 										0.0,
 										-0.3999999999999999
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1378,7 +1051,7 @@
 										-0.932004671541296,
 										0.2614790884046413
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1480,7 +1153,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1525,7 +1198,7 @@
 										-0.9363291775690445,
 										-0.2926028679903264
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1570,7 +1243,7 @@
 										0.9363291775690445,
 										-0.2926028679903264
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1615,7 +1288,7 @@
 										0.0,
 										-0.49999999999999994
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1660,7 +1333,7 @@
 										0.0,
 										-0.49999999999999994
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1705,7 +1378,7 @@
 										-0.0,
 										0.3999999999999999
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1807,7 +1480,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1852,7 +1525,7 @@
 										-0.9363291775690445,
 										-0.2926028679903264
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1897,7 +1570,7 @@
 										0.0,
 										-0.49999999999999994
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1942,7 +1615,7 @@
 										0.0,
 										-0.49999999999999994
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -1987,7 +1660,7 @@
 										0.0,
 										-0.3999999999999999
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -2032,7 +1705,7 @@
 										0.932004671541296,
 										0.2614790884046413
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -2134,7 +1807,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2179,7 +1852,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2224,7 +1897,7 @@
 										-1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2269,7 +1942,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -2314,7 +1987,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -2359,7 +2032,7 @@
 										-0.0,
 										0.42500000000000004
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -2461,7 +2134,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2506,7 +2179,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2551,7 +2224,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2596,7 +2269,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2641,7 +2314,7 @@
 										-1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2686,7 +2359,7 @@
 										-0.0,
 										2.4999999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -2788,7 +2461,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2833,7 +2506,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2878,7 +2551,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2923,7 +2596,7 @@
 										-1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -2968,7 +2641,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -3013,7 +2686,7 @@
 										-0.0,
 										-1.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -3115,7 +2788,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3160,7 +2833,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3205,7 +2878,7 @@
 										-1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3250,7 +2923,7 @@
 										0.0,
 										-2.4999999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -3295,7 +2968,7 @@
 										0.0,
 										1.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -3340,7 +3013,7 @@
 										-0.0,
 										0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -3442,7 +3115,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3487,7 +3160,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3532,7 +3205,7 @@
 										-1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3577,7 +3250,7 @@
 										0.0,
 										-2.4999999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -3622,7 +3295,7 @@
 										0.0,
 										1.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -3667,7 +3340,7 @@
 										-0.0,
 										0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -3769,7 +3442,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3814,7 +3487,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3859,7 +3532,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3904,7 +3577,7 @@
 										-1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -3949,7 +3622,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -3994,7 +3667,7 @@
 										-0.0,
 										-1.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -4096,7 +3769,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4141,7 +3814,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4186,7 +3859,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4231,7 +3904,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4276,7 +3949,7 @@
 										-1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4321,7 +3994,7 @@
 										-0.0,
 										2.4999999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -4423,7 +4096,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4468,7 +4141,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4513,7 +4186,7 @@
 										-1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4558,7 +4231,7 @@
 										0.0,
 										1.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -4603,7 +4276,7 @@
 										0.0,
 										-2.4999999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -4648,7 +4321,7 @@
 										-0.0,
 										0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -4750,7 +4423,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4795,7 +4468,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4840,7 +4513,7 @@
 										-1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -4885,7 +4558,7 @@
 										0.0,
 										1.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -4930,7 +4603,7 @@
 										0.0,
 										-2.4999999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -4975,7 +4648,7 @@
 										-0.0,
 										0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -5077,7 +4750,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5122,7 +4795,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5167,7 +4840,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5212,7 +4885,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5257,7 +4930,7 @@
 										1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5302,7 +4975,7 @@
 										-0.0,
 										1.2499999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -5404,7 +5077,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5449,7 +5122,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5494,7 +5167,7 @@
 										1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5539,7 +5212,7 @@
 										0.0,
 										-1.2499999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -5584,7 +5257,7 @@
 										0.0,
 										0.2499999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -5629,7 +5302,7 @@
 										-0.0,
 										0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -5731,7 +5404,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5776,7 +5449,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5821,7 +5494,7 @@
 										1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -5866,7 +5539,7 @@
 										0.0,
 										-1.2499999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -5911,7 +5584,7 @@
 										0.0,
 										0.2499999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -5956,7 +5629,7 @@
 										-0.0,
 										0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -6058,7 +5731,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6103,7 +5776,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6148,7 +5821,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6193,7 +5866,7 @@
 										1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6238,7 +5911,7 @@
 										-0.0,
 										-0.2499999999999996
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -6283,7 +5956,7 @@
 										-0.0,
 										-0.25000000000000044
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -6385,7 +6058,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6430,7 +6103,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6475,7 +6148,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6520,7 +6193,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6565,7 +6238,7 @@
 										1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6610,7 +6283,7 @@
 										-0.0,
 										1.2500000000000004
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -6712,7 +6385,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6757,7 +6430,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6802,7 +6475,7 @@
 										1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -6847,7 +6520,7 @@
 										0.0,
 										0.25000000000000044
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -6892,7 +6565,7 @@
 										0.0,
 										-1.2500000000000004
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -6937,7 +6610,7 @@
 										-0.0,
 										0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -7039,7 +6712,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7084,7 +6757,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7129,7 +6802,7 @@
 										1.025641025641026,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7174,7 +6847,7 @@
 										0.0,
 										0.25000000000000044
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -7219,7 +6892,7 @@
 										0.0,
 										-1.2500000000000004
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -7264,7 +6937,7 @@
 										-0.0,
 										0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -7366,7 +7039,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7411,7 +7084,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7456,7 +7129,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7501,7 +7174,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7546,7 +7219,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7591,7 +7264,7 @@
 										-0.0,
 										0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -7693,7 +7366,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7738,7 +7411,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7783,7 +7456,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7828,7 +7501,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7873,7 +7546,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -7918,7 +7591,7 @@
 										-0.0,
 										0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -8020,7 +7693,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8065,7 +7738,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8110,7 +7783,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8155,7 +7828,7 @@
 										0.0,
 										-0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -8200,7 +7873,7 @@
 										0.0,
 										-0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -8245,7 +7918,7 @@
 										2.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -8347,7 +8020,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8392,7 +8065,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8437,7 +8110,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8482,7 +8155,7 @@
 										0.0,
 										-0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -8527,7 +8200,7 @@
 										0.0,
 										-0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -8572,7 +8245,7 @@
 										-2.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -8674,7 +8347,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8719,7 +8392,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8764,7 +8437,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8809,7 +8482,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8854,7 +8527,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -8899,7 +8572,7 @@
 										-0.0,
 										0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -9001,7 +8674,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9046,7 +8719,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9091,7 +8764,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9136,7 +8809,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9181,7 +8854,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9226,7 +8899,7 @@
 										-0.0,
 										0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -9328,7 +9001,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9373,7 +9046,7 @@
 										-1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9418,7 +9091,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9463,7 +9136,7 @@
 										0.0,
 										-0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -9508,7 +9181,7 @@
 										0.0,
 										-0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -9553,7 +9226,7 @@
 										2.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -9655,7 +9328,7 @@
 										0.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9700,7 +9373,7 @@
 										1.0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9745,7 +9418,7 @@
 										-0.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										0.51
@@ -9790,7 +9463,7 @@
 										0.0,
 										-0.25
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -9835,7 +9508,7 @@
 										0.0,
 										-0.75
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -9880,7 +9553,7 @@
 										-2.0,
 										0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										0.25,
 										0.25
@@ -9982,7 +9655,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -10027,7 +9700,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -10072,7 +9745,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -10117,7 +9790,7 @@
 										0,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -10162,7 +9835,7 @@
 										-1,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -10207,7 +9880,7 @@
 										1,
 										-0.5
 									],
-									"material" : 1,
+									"material" : 0,
 									"textureScale" : [
 										1.0,
 										1.0
@@ -10500,7 +10173,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -10545,7 +10218,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -10590,7 +10263,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -10635,7 +10308,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -10680,7 +10353,7 @@
 								-1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -10725,7 +10398,7 @@
 								1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -10827,7 +10500,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -10872,7 +10545,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -10917,7 +10590,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -10962,7 +10635,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11007,7 +10680,7 @@
 								-1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11052,7 +10725,7 @@
 								1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11154,7 +10827,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11199,7 +10872,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11244,7 +10917,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11289,7 +10962,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11334,7 +11007,7 @@
 								-1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11379,7 +11052,7 @@
 								1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11481,7 +11154,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11526,7 +11199,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11571,7 +11244,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11616,7 +11289,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11661,7 +11334,7 @@
 								-1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11706,7 +11379,7 @@
 								1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11808,7 +11481,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11853,7 +11526,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11898,7 +11571,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11943,7 +11616,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -11988,7 +11661,7 @@
 								-1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -12033,7 +11706,7 @@
 								1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -12135,7 +11808,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -12180,7 +11853,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -12225,7 +11898,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -12270,7 +11943,7 @@
 								0,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -12315,7 +11988,7 @@
 								-1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -12360,7 +12033,7 @@
 								1,
 								-0.5
 							],
-							"material" : 2,
+							"material" : 1,
 							"textureScale" : [
 								0.25,
 								0.25
@@ -12422,6 +12095,128 @@
 						0.5,
 						0.5
 					]
+				},
+				{
+					"__type__" : "Terrain",
+					"name" : "",
+					"visible" : true,
+					"transform" : {
+						"scale" : [
+							50.0,
+							1.0,
+							50.0
+						],
+						"rotation" : [
+							0,
+							0,
+							0,
+							1
+						],
+						"translation" : [
+							0.0,
+							-0.8170875984236649,
+							-38.5
+						]
+					},
+					"editionViewColor" : [
+						0.4478492198648107,
+						0.38138564630209604,
+						0.0060249323261142565,
+						1.0
+					],
+					"patchSize" : 32,
+					"rows" : 2,
+					"columns" : 2,
+					"patches" : [
+						{
+							"__type__" : "TerrainPatch",
+							"name" : "",
+							"visible" : true,
+							"editionViewColor" : [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							],
+							"heights" : "AACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMAAAKDAAACgwAAAoMDlV5rAn12awNhfmsC9KZrA77GawGJ4msDmr5rAuYCawDOjmsCZ3prAJtiawB2smsAXmJrAonqawPFxmsAlkprAPfGawOD/msBs5JrAUZqawHp4msAahZrAUVGawBYkmsDcR5rAlICawH+jmsC/vJrAraeawMmYmsAqW5rAxWCawPxwlMC825PAGcaTwCDKk8D/5JTAu0OVwHEJlcD3cZTAHIOUwHOvlMAjrZTATpOUwHtHlMArSZTAJLGUwJsIlcATmZXADViVwOh0lcDCnJXAIDqVwJ8TlMA5YZPAg0CTwIYDlMAXl5TA79OUwPVKlcAC35TADPaUwLhklMBeypPAVnKPwOKPjsDefo/Aj3ePwDNTj8ASMo/AusGQwAljj8Bt9Y7AeQmPwIsCj8DC3Y3APtWNwFjrjcBRxI7ACymPwILgj8CWXo/AnAiQwPUTkMDWq4/AvN+OwFcwjsBSv43AKGyOwBpyj8B01I/Av+6PwF13j8D31I7AeKmOwF2ojsB9IYrA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",
+							"material" : 2,
+							"textureScale" : [
+								0.125,
+								0.125
+							],
+							"textureOffset" : [
+								0.0,
+								0.0
+							],
+							"textureRotation" : 0.0
+						},
+						{
+							"__type__" : "TerrainPatch",
+							"name" : "",
+							"visible" : true,
+							"editionViewColor" : [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							],
+							"heights" : "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",
+							"material" : 2,
+							"textureScale" : [
+								0.125,
+								0.125
+							],
+							"textureOffset" : [
+								0.0,
+								0.0
+							],
+							"textureRotation" : 0.0
+						},
+						{
+							"__type__" : "TerrainPatch",
+							"name" : "",
+							"visible" : true,
+							"editionViewColor" : [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							],
+							"heights" : "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",
+							"material" : 2,
+							"textureScale" : [
+								0.125,
+								0.125
+							],
+							"textureOffset" : [
+								0.0,
+								0.0
+							],
+							"textureRotation" : 0.0
+						},
+						{
+							"__type__" : "TerrainPatch",
+							"name" : "",
+							"visible" : true,
+							"editionViewColor" : [
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							],
+							"heights" : "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",
+							"material" : 2,
+							"textureScale" : [
+								0.125,
+								0.125
+							],
+							"textureOffset" : [
+								0.0,
+								0.0
+							],
+							"textureRotation" : 0.0
+						}
+					]
 				}
 			],
 			"className" : "StaticActor"
@@ -12443,7 +12238,7 @@
 					1
 				],
 				"translation" : [
-					1.0,
+					-3.0,
 					1.0,
 					0.0
 				]
