@@ -1,10 +1,21 @@
 Class {
-	#name : #WDCEWorkshopSandboxExamples,
-	#superclass : #Object,
-	#category : #'WodenCoreExamples-GameFramework'
+	#name : 'WDCEWorkshopSandboxExamples',
+	#superclass : 'Object',
+	#category : 'WodenCoreExamples-GameFramework',
+	#package : 'WodenCoreExamples-GameFramework'
 }
 
-{ #category : #examples }
+{ #category : 'examples' }
+WDCEWorkshopSandboxExamples class >> exampleWorkshopIsland [
+	"
+	self exampleWorkshopIsland
+	"
+	(WDGFWorld withApplicationSettings: WDCEGameFrameworkApplicationSettings)
+		loadFromFileNamed: 'maps/workshopIsland.wgfworld';
+		playInWindow
+]
+
+{ #category : 'examples' }
 WDCEWorkshopSandboxExamples class >> exampleWorkshopSandbox [
 	"
 	self exampleWorkshopSandbox
@@ -14,6 +25,6 @@ WDCEWorkshopSandboxExamples class >> exampleWorkshopSandbox [
 		playInWindow
 ]
 
-{ #category : #'see class side' }
+{ #category : 'see class side' }
 WDCEWorkshopSandboxExamples >> seeClassSide [
 ]

@@ -1,15 +1,16 @@
 Class {
-	#name : #WDCEGameFrameworkApplicationSettings,
-	#superclass : #WDGFApplicationSettings,
-	#category : #'WodenCoreExamples-GameFramework'
+	#name : 'WDCEGameFrameworkApplicationSettings',
+	#superclass : 'WDGFApplicationSettings',
+	#category : 'WodenCoreExamples-GameFramework',
+	#package : 'WodenCoreExamples-GameFramework'
 }
 
-{ #category : #'accessing - ui' }
+{ #category : 'accessing - ui' }
 WDCEGameFrameworkApplicationSettings >> assetsLocations [
 	^ { WodenCoreExamplesAssets location }
 ]
 
-{ #category : #'accessing - ui' }
+{ #category : 'accessing - ui' }
 WDCEGameFrameworkApplicationSettings >> projectLocation [
 	^ WodenCoreExamplesAssets location parent
 ]

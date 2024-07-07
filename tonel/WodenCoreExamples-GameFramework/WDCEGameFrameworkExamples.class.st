@@ -2,12 +2,13 @@
 I hold heavy game framework examples.
 "
 Class {
-	#name : #WDCEGameFrameworkExamples,
-	#superclass : #Object,
-	#category : #'WodenCoreExamples-GameFramework'
+	#name : 'WDCEGameFrameworkExamples',
+	#superclass : 'Object',
+	#category : 'WodenCoreExamples-GameFramework',
+	#package : 'WodenCoreExamples-GameFramework'
 }
 
-{ #category : #'example - ibl' }
+{ #category : 'example - ibl' }
 WDCEGameFrameworkExamples class >> exampleOpaquePool [
 	"
 	self exampleOpaquePool
@@ -93,7 +94,7 @@ WDCEGameFrameworkExamples class >> exampleOpaquePool [
 	world playInWindow
 ]
 
-{ #category : #'example - ibl' }
+{ #category : 'example - ibl' }
 WDCEGameFrameworkExamples class >> examplePool [
 	"
 	self examplePool
@@ -179,6 +180,6 @@ WDCEGameFrameworkExamples class >> examplePool [
 	world playInWindow
 ]
 
-{ #category : #'see class side' }
+{ #category : 'see class side' }
 WDCEGameFrameworkExamples >> seeClassSide [
 ]
