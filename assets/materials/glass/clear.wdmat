@@ -1,0 +1,8 @@
+{
+    "type": "MetallicRoughness",
+    "baseColorFactor": [0.3, 0.3, 0.3, 0.3],
+    "metallicFactor": 1.0,
+    "roughnessFactor": 0.001,
+    "alphaMode": "BLEND",
+    "doubleSided": true
+}
