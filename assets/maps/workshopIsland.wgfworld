@@ -33,16 +33,16 @@
 		0.050973976977124184,
 		1.0
 	],
-	"fogMode" : "NONE",
+	"fogMode" : "EXP2",
 	"fogColor" : [
-		0,
-		0,
-		0,
-		0
+		0.6,
+		0.6,
+		0.9,
+		1.0
 	],
 	"fogStartDistance" : 0.0,
 	"fogEndDistance" : 0.0,
-	"fogDensity" : 0.0,
+	"fogDensity" : 0.007,
 	"hdri" : "hdri/world/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
 	"useHDRIAsSkybox" : true,
 	"children" : [
